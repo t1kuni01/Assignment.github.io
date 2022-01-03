@@ -1,0 +1,792 @@
+/* INDEX FILE */
+
+@media only screen and (max-width: 992px) {
+  .navtext {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px !important;
+
+    color: #c5a6a1;
+  }
+
+  .mainlogo {
+    width: auto;
+  }
+
+  .logohead {
+    height: 50px;
+    max-width: 50px;
+    margin-left: 1%;
+  }
+
+  .bannerm {
+    width: 100%;
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    margin-bottom: -350px !important;
+  }
+
+  .contactbackground {
+    width: 80% !important;
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -2px 2px black;
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 50px;
+  }
+  .textm {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px !important;
+    color: #c5a6a1;
+    text-align: center;
+  }
+
+  .textsetting {
+    height: 60px !important;
+    width: 100%;
+  }
+
+  .imgbackground {
+    height: max-content !important;
+    width: 100%;
+    margin-bottom: 150px;
+    background-color: #ebebeb !important;
+  }
+
+  .imgsetting {
+    height: min-content !important;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #ebebeb !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgset {
+    width: 50% !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    background-color: #ffffff;
+    margin-left: 3%;
+  }
+
+  .buttonsetting {
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px !important;
+  }
+
+  .button {
+    width: 100%;
+    height: 70px !important;
+    background: #c5a6a1;
+    border-radius: 240px;
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+
+    color: #000000;
+  }
+
+  .iconsetting {
+    height: max-content !important;
+    width: 98% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconpadding {
+    width: 20%;
+    margin-left: 0px !important;
+    padding: 50px;
+  }
+  .iconpicset {
+    width: 30%;
+    margin-left: 0px !important;
+  }
+
+  .icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 0% !important;
+  }
+  .iconnam {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: -15px;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerbackground {
+    height: min-content !important;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerlo {
+    min-height: 50%;
+    min-width: 100% !important;
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+  .addset {
+    width: 70% !important;
+    height: 80%;
+  }
+
+  .address {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 23%;
+    font-size: 24px;
+    line-height: 44px;
+    color: #ffffff;
+    margin-left: 50px;
+  }
+  .listsetting {
+    width: 50% !important;
+    height: 80%;
+  }
+  .list {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 23%;
+    font-size: 24px;
+    line-height: 0px;
+    color: #ffffff;
+  }
+  .ul {
+    margin-top: 20%;
+  }
+
+  .offer {
+    width: 48% !important;
+    object-fit: contain;
+    margin-left: 2%;
+  }
+
+  .aboutparagharph {
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    text-justify: inter-word;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navtext {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px !important;
+
+    color: #c5a6a1;
+  }
+
+  .mainlogo {
+    width: auto;
+  }
+
+  .logohead {
+    height: 50px;
+    max-width: 50px;
+    margin-left: 1%;
+  }
+
+  .bannerm {
+    width: 100%;
+    background-image: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    margin-bottom: -350px !important;
+  }
+
+  .contactbackground {
+    width: 80% !important;
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -2px 2px black;
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 50px;
+  }
+  .textm {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px !important;
+    color: #c5a6a1;
+    text-align: center;
+  }
+
+  .textsetting {
+    height: 60px !important;
+    width: 100%;
+  }
+
+  .imgbackground {
+    height: max-content !important;
+    width: 100%;
+    margin-bottom: 150px;
+    background-color: #ebebeb !important;
+  }
+
+  .imgsetting {
+    height: min-content !important;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #ebebeb !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgset {
+    width: 50% !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    background-color: #ffffff;
+    margin-left: 3%;
+  }
+
+  .buttonsetting {
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px !important;
+  }
+
+  .button {
+    width: 100%;
+    height: 70px !important;
+    background: #c5a6a1;
+    border-radius: 240px;
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+
+    color: #000000;
+  }
+
+  .iconsetting {
+    height: max-content !important;
+    width: 98% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconpadding {
+    width: 20%;
+    margin-left: 0px !important;
+    padding: 50px;
+  }
+  .iconpicset {
+    width: 30%;
+    margin-left: 0px !important;
+  }
+
+  .icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 0% !important;
+  }
+  .iconnam {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: -15px;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerbackground {
+    height: min-content !important;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerlo {
+    min-height: 50%;
+    min-width: 100% !important;
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+  .addset {
+    width: 70% !important;
+    height: 80%;
+  }
+
+  .address {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 23%;
+    font-size: 24px;
+    line-height: 44px;
+    color: #ffffff;
+    margin-left: 50px;
+  }
+  .listsetting {
+    width: 50% !important;
+    height: 80%;
+  }
+  .list {
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 23%;
+    font-size: 24px;
+    line-height: 0px;
+    color: #ffffff;
+  }
+  .ul {
+    margin-top: 20%;
+  }
+
+  .offer {
+    width: 48% !important;
+    object-fit: contain;
+    margin-left: 2%;
+  }
+
+  .aboutparagharph {
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    text-justify: inter-word;
+  }
+}
+
+.main {
+  width: 99%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainlogo {
+  width: 20%;
+}
+
+.logohead {
+  min-height: 80%;
+  max-width: 105px;
+  margin-left: 25%;
+}
+.header {
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navtext {
+  font-family: Teko;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #c5a6a1;
+  width: 20%;
+}
+.cart {
+  width: 20%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.latest {
+  max-height: 30px;
+  max-width: 30px;
+  margin-left: 5px;
+}
+
+.banner {
+  height: 502px;
+  width: 100%;
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textsetting {
+  height: 184px;
+  width: 100%;
+}
+
+.text {
+  font-family: Teko;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  color: #c5a6a1;
+  text-align: center;
+}
+.imgbackground {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #ebebeb;
+}
+.imgsetting {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imgset {
+  width: 18.5%;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  margin-left: 3%;
+}
+.img {
+  max-height: 80%;
+  max-width: 90%;
+  margin: 5.5%;
+}
+.productname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -20px;
+}
+.name {
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+}
+.buttonsetting {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -120px;
+}
+.button {
+  width: 100%;
+  height: 80%;
+  background: #c5a6a1;
+  border-radius: 240px;
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 69px;
+  color: #000000;
+}
+.offerimgsetting {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.offer {
+  width: 49%;
+  object-fit: contain;
+  margin-left: 2%;
+}
+.accessoires {
+  width: 31%;
+  margin-left: 2%;
+  object-fit: contain;
+}
+.iconsetting {
+  height: 200px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.iconpadding {
+  width: 20%;
+  margin-left: 2%;
+  padding: 50px;
+}
+.iconpicset {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-left: 25%;
+}
+.iconnam {
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: -15px;
+  color: #000000;
+  width: 100%;
+  text-align: center;
+}
+.footerbackground {
+  height: 500px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerlo {
+  min-height: 50%;
+  max-width: 80%;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+.addset {
+  width: 30%;
+  height: 80%;
+}
+
+.address {
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 23%;
+  font-size: 24px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-left: 50px;
+}
+.listsetting {
+  width: 10%;
+  height: 80%;
+  margin-top: 10%;
+}
+.list {
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 23%;
+  font-size: 24px;
+  line-height: 0px;
+  color: #ffffff;
+}
+.ul {
+  margin-top: 20%;
+}
+
+/* ABOUTUS FILE */
+
+.aboutmain {
+  text-align: center;
+  color: #c5a6a1;
+  font-size: 48px;
+}
+.aboutbackground {
+  height: 300px;
+  border: 2px solid lightslategray;
+  margin-right: 15%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+}
+.aboutbroder {
+  width: 35%;
+  border-right: 1px solid lightslategray;
+}
+.aboutimg {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+.aboutbackgroundcolor {
+  width: 65%;
+  background-color: #c5a6a1;
+}
+.aboutheading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 2px 1px lightslategray;
+}
+.aboutparagharph {
+  padding-right: 15%;
+  padding-left: 15%;
+  text-justify: inter-word;
+}
+.aboutbottom {
+  height: 300px;
+  border: 2px solid lightslategray;
+  margin-right: 15%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.aboutbottombroder {
+  width: 65%;
+  border-right: 1px solid lightslategray;
+  background-color: #c5a6a1;
+}
+
+/* CONTACTUS FILE */
+.contactmain {
+  height: 100%;
+  width: 100%;
+  background-color: #c5a6a1;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.contactheading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 1px 3px black;
+}
+.contactbackground {
+  width: 32%;
+  background-color: #ffffff;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -2px 2px black;
+  border: 1px solid black;
+  padding: 5%;
+  margin-bottom: 50px;
+}
+.contactdisplay {
+  display: flex;
+  flex-direction: row;
+}
+.contactname {
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contacttext {
+  margin-top: 10px;
+  width: 60%;
+  height: 50px;
+  border: 2px solid #c5a6a1;
+  border-radius: 30px;
+  padding-left: 55px;
+}
+.contactdisplay2 {
+  margin-top: 25px;
+}
+.contactname2 {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contacttext2 {
+  margin-top: 10px;
+  width: 80%;
+  height: 50px;
+  border: 2px solid #c5a6a1;
+  border-radius: 30px;
+  padding-left: 55px;
+}
+
+/* SHOP FILE */
+
+.shopmain {
+  height: 750px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shopdisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shopbackground {
+  height: 40px;
+  width: 180px;
+  background-color: #c5a6a1;
+  border-radius: 25px;
+}
+.shoptext {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.shopimgbackground {
+  height: 660px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.shopimgset {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.shopimgheight {
+  height: 100%;
+  width: 24%;
+}
+.shopimg {
+  width: 100%;
+  height: 85%;
+}
